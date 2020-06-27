@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+    <channel>
+        
+        <title>Allgemeine Zeitung - Lokalnachrichten aus Mainz</title>
+        <description>Allgemeine Zeitung RSS-Feed für die Rubrik Lokalnachrichten aus Mainz</description>
+        <link>https://www.allgemeine-zeitung.de</link>
+        <language>de</language>
+        <pubDate>Sat, 27 Jun 2020 04:04:32 +0200</pubDate>
+
+        
+        <image>
+            <title>Allgemeine Zeitung</title>
+            <link>https://www.allgemeine-zeitung.de</link>
+            <url>https://www.allgemeine-zeitung.de/images/editions/az/logo.svg</url>
+        </image>
+
+        
+                    <item>
+                <title>Kommentar zur Umbenennung von Straßen: Wann ist Heuss dran?</title>
+                <link>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/kommentar-zur-umbenennung-von-strassen-wann-ist-heuss-dran_21868247</link>
+                <description>Der Vorstoß im Ortsbeirat Neustadt, Straßen und Plätze umzubenennen, hat für viel Kritik gesorgt. Dass sich das Gremium vom 117er Ehrenhof verabschiedet hat, ändert aber nichts an der grundsätzlichen ...</description>
+                <pubDate>Sat, 27 Jun 2020 00:00:00 +0200</pubDate>
+                <guid>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/kommentar-zur-umbenennung-von-strassen-wann-ist-heuss-dran_21868247</guid>
+
+                
+                            </item>
+                    <item>
+                <title>Mainzer Meisterkonzerte planen für die nächste Saison</title>
+                <link>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/mainzer-meisterkonzerte-planen-fur-die-nachste-saison_21867938</link>
+                <description>Kammermusik statt Sinfoniesound – auch mit Corona-Auflagen. Bilanz der Jubiläumssaison zum 35-jährigen Bestehen und Ausblick in neue Spielzeit 2020/2021</description>
+                <pubDate>Sat, 27 Jun 2020 00:00:00 +0200</pubDate>
+                <guid>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/mainzer-meisterkonzerte-planen-fur-die-nachste-saison_21867938</guid>
+
+                
+                            </item>
+                    <item>
+                <title>Charlotte und Horst Jaster feiern in Mainz Eiserne Hochzeit</title>
+                <link>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/charlotte-und-horst-jaster-feiern-in-mainz-eiserne-hochzeit_21868031</link>
+                <description>Sie lernten sich 1951 in Berlin kennen – und lieben sich noch heute wie am ersten Tag. Charlotte und Horst Jaster sind seit 65 Jahren verheiratet.</description>
+                <pubDate>Sat, 27 Jun 2020 00:00:00 +0200</pubDate>
+                <guid>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/charlotte-und-horst-jaster-feiern-in-mainz-eiserne-hochzeit_21868031</guid>
+
+                
+                                    <enclosure type="image/jpeg" url="https://cdn.meine-vrm.de/cALPsdQf5lb_ir77wFd91QoZgjo=/640x400/smart/819%2F21868%2F21868030%2F46651053.jpg" length="0"/>                            </item>
+                    <item>
+                <title>Pfarrer Schäfer verlässt Mainzer Gemeinden St. Ignaz und Stephan</title>
+                <link>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/pfarrer-schafer-verlasst-mainzer-gemeinden-st-ignaz-und-stephan_21868029</link>
+                <description>Eine weitere Etappe einer langen beruflichen Wanderschaft endet: Pfarrer Schäfer, 1992 im Mainzer Dom von Kardinal Karl Lehmann zum Priester geweiht, wechselt nach Darmstadt.</description>
+                <pubDate>Sat, 27 Jun 2020 00:00:00 +0200</pubDate>
+                <guid>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/pfarrer-schafer-verlasst-mainzer-gemeinden-st-ignaz-und-stephan_21868029</guid>
+
+                
+                            </item>
+                    <item>
+                <title>Roeinghs Ratschlag: Beschränkungen nach Tönnies-Skandal</title>
+                <link>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/roeinghs-ratschlag-beschrankungen-nach-tonnies-skandal_21867761</link>
+                <description>"Unser Ischgl heißt Tönnies", sagt Friedrich Roeingh im Video-Kommentar. Und erklärt, dass regionale Reisebeschränkungen bitter, aber verhältnismäßig sind.</description>
+                <pubDate>Fri, 26 Jun 2020 00:00:00 +0200</pubDate>
+                <guid>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/roeinghs-ratschlag-beschrankungen-nach-tonnies-skandal_21867761</guid>
+
+                
+                                    <enclosure type="image/jpeg" url="https://cdn.meine-vrm.de/nmbHa6QJ7W6ufXyo4aSx60Qd1mo=/640x400/smart/819%2F19900%2F19900683%2F40439213.png" length="0"/>                            </item>
+                    <item>
+                <title>Das Taubertsbergbad wird geöffnet - zumindest ein bisschen</title>
+                <link>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/das-taubertsbergbad-wird-geoffnet-zumindest-ein-bisschen_21867359</link>
+                <description>Neu gestaltet macht das Mainzer Taubertsbergbad nun auf. Worauf dürfen sich die Besucher freuen und welche Regeln gelten für den Freibadbesuch?</description>
+                <pubDate>Fri, 26 Jun 2020 00:00:00 +0200</pubDate>
+                <guid>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/das-taubertsbergbad-wird-geoffnet-zumindest-ein-bisschen_21867359</guid>
+
+                
+                                    <enclosure type="image/jpeg" url="https://cdn.meine-vrm.de/Un_wqMsD2xjQV4pCRrfn1H13_Os=/640x400/smart/819%2F21867%2F21867358%2F46649232.jpg" length="0"/>                            </item>
+                    <item>
+                <title>Mainzer Gutenberg-Museum bleibt beim Dom</title>
+                <link>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/mainzer-gutenberg-museum-bleibt-beim-dom_21866987</link>
+                <description>Geht es nach der Arbeitswerkstatt, wird der Schellbau des Gutenberg-Museums in der Mainzer Altstadt abgerissen und durch ein neues Gebäude ersetzt. Doch noch fehlt das Geld.</description>
+                <pubDate>Fri, 26 Jun 2020 00:00:00 +0200</pubDate>
+                <guid>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/mainzer-gutenberg-museum-bleibt-beim-dom_21866987</guid>
+
+                
+                                    <enclosure type="image/jpeg" url="https://cdn.meine-vrm.de/v713T2hCICuYjJ5qipLLIk04oNo=/640x400/smart/819%2F21866%2F21866986%2F46647708.jpg" length="0"/>                            </item>
+                    <item>
+                <title>Baustart für "Grünufer Nordmole" am Mainzer Rheinufer</title>
+                <link>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/baustart-fur-grunufer-nordmole-am-mainzer-rheinufer_21866877</link>
+                <description>Der Mainzer Zollhafen soll eine große Grünfläche erhalten. Das sogenannte "Grünufer Nordmole" dürfte in wenigen Jahren den Bürgern zur Verfügung stehen. </description>
+                <pubDate>Fri, 26 Jun 2020 00:00:00 +0200</pubDate>
+                <guid>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/baustart-fur-grunufer-nordmole-am-mainzer-rheinufer_21866877</guid>
+
+                
+                                    <enclosure type="image/jpeg" url="https://cdn.meine-vrm.de/Ou2Wje7-rFhkLly53lbvTntpqSc=/640x400/smart/819%2F21866%2F21866876%2F46647437.jpg" length="0"/>                            </item>
+                    <item>
+                <title>Kommentar zum Gutenberg-Museum: Etappensieg</title>
+                <link>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/kommentar-zum-gutenberg-museum-etappensieg_21866970</link>
+                <description>Es war vor vier Jahren im Februar, als im Drusussaal der Zitadelle Kulturdezernentin und Museumsdirektorin stolz den Siegerentwurf des Architektenwettbewerbs präsentierten: ein futuristisch aussehender ...</description>
+                <pubDate>Fri, 26 Jun 2020 00:00:00 +0200</pubDate>
+                <guid>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/kommentar-zum-gutenberg-museum-etappensieg_21866970</guid>
+
+                
+                            </item>
+                    <item>
+                <title>Überfall auf McDonald's: Tätersuche läuft</title>
+                <link>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/uberfall-auf-mcdonalds-tatersuche-lauft_21866861</link>
+                <description>Ein Täter mit auffälligen Tätowierungen hat am Donnerstag die McDonald's-Filiale in der Mainzer Altstadt überfallen. Dabei feuerte er mit einer Schreckschusspistole im Restaurant.</description>
+                <pubDate>Fri, 26 Jun 2020 00:00:00 +0200</pubDate>
+                <guid>https://www.allgemeine-zeitung.de/lokales/mainz/nachrichten-mainz/uberfall-auf-mcdonalds-tatersuche-lauft_21866861</guid>
+
+                
+                                    <enclosure type="image/jpeg" url="https://cdn.meine-vrm.de/kaEstKINC2Wh7BIA4MYhjOACFbc=/640x400/smart/819%2F21866%2F21866860%2F46647380.jpg" length="0"/>                            </item>
+        
+    </channel>
+</rss>

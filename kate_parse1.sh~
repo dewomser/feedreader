@@ -3,7 +3,7 @@ zaehl=1
 
 xmlgetnext () {
    local IFS='>'
-   read -d '<' TAG VALUE
+   read -dr '<' TAG VALUE
 }
 cat "$1" | while xmlgetnext ; do
    case $TAG in
