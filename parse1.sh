@@ -1,0 +1,70 @@
+#!/bin/bash
+zaehl=1
+
+xmlgetnext () {
+   local IFS='>'
+   read -d '<' TAG VALUE
+}
+
+cat "$1" | while xmlgetnext ; do
+   case $TAG in
+      'item')
+         title=''
+         link=''
+         pubDate=''
+         description=''
+         enclosure=''
+         
+         ;;
+      'title')
+         title="$VALUE"
+         ;;
+      'link')
+         #link="$VALUE"
+         link="$VALUE" 
+         #link=$( ./WZ.sh "$VALUE"
+         ;;
+      'pubDate')
+         # convert pubDate format for <time datetime="">
+         datetime=$( date --date "$VALUE" --iso-8601=minutes )
+         pubDate=$( date --date "$VALUE" '+%d.%m %Y  %H:%M%P Uhr' )
+         ;;
+      'description')
+         # convert '&lt;' and '&gt;' to '<' and '>'
+         description=$( echo "$VALUE" | sed -e 's/&lt;/</g' -e 's/&gt;/>/g' )
+         enclosure=0
+
+        ;;
+        
+          enclosure*)  
+          enclosure=1
+         
+         ;;
+      
+  '/item')
+      
+    
+         cat<<EOF
+<article>
+<h3><a href="$link">$title</a></h3>
+<p>$description
+<span class="post-date">hoch geladen am <time
+datetime="$datetime">$pubDate</time></span></p>
+<p></p>
+</article>
+EOF
+
+if [ $enclosure -eq 1 ] ; then
+
+cat "$1" | egrep enclosure | sed -n "$zaehl"p | sed -e 's/<enclosure//g' -e 's/<\/item>//g' -e 's/length=\"0\"\///g' -e 's/type=\"image\/jpeg\" url/<img src/g'
+zaehl=$((zaehl+1))
+
+fi
+
+  ;;
+      esac
+    
+done
+
+sleep 2
+
