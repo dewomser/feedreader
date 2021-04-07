@@ -1,10 +1,9 @@
 # Feedreader
-rss feedreader incl. image
-
-rss2html
+Rss feedreader incl. image
+Es wird ein HTML erzeugt und im Browser angezeigt (Dillo)
 
 Mit Superlinter Push BASH getestet:  
-![Lint Code Base](https://github.com/dewomser/feedreader/workflows/Lint%20Code%20Base/badge.svg?event=push)
+[![Lint Code Base](https://github.com/dewomser/feedreader/actions/workflows/linter.yml/badge.svg)](https://github.com/dewomser/feedreader/actions/workflows/linter.yml)
 ## Usage
 * copy both shellscripts in the same dir
 * only get-rss1.sh needs to be edited.
