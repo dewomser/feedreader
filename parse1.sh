@@ -3,8 +3,10 @@ zaehl=1
 
 xmlgetnext () {
    local IFS='>'
+   # shellcheck disable=SC2162
    read -d '<' TAG VALUE
 }
+# shellcheck disable=SC2002
 cat "$1" | while xmlgetnext ; do
    case $TAG in
       'item')
@@ -20,7 +22,7 @@ cat "$1" | while xmlgetnext ; do
          ;;
       'link')
          #link="$VALUE"
-         link="$VALUE" 
+         link=$( echo "$VALUE" | sed -e 's/\.de/\.de\/amp/g')
          #link=$( ./WZ.sh "$VALUE"
          ;;
       'pubDate')
@@ -54,8 +56,8 @@ datetime="$datetime">$pubDate</time></span></p>
 EOF
 
 if [ $enclosure -eq 1 ] ; then
-
-cat "$1" | grep enclosure | sed -n "$zaehl"p | sed -e 's/<enclosure//g' -e 's/<\/item>//g' -e 's/length=\"0\"\///g' -e 's/type=\"image\/jpeg\" url/<img src/g'
+# shellcheck disable=SC2002
+cat "$1" | grep -e enclosure | sed -n "$zaehl"p | sed -e 's/<enclosure//g' -e 's/<\/item>//g' -e 's/length=\"0\"\///g' -e 's/type=\"image\/jpeg\" url/<img src/g'
 zaehl=$((zaehl+1))
 
 fi

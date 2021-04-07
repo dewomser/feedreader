@@ -1,5 +1,5 @@
 #!/bin/bash
- cd /home/karl/git/feedreader || exit
+cd /home/karl/bin/wz-test || exit
 
 wget --quiet -O "$1".txt "$2"
 

@@ -10,5 +10,5 @@ Mit Superlinter Push BASH getestet:
 * only get-rss1.sh needs to be edited.
 * 1.line :path
 * last line: browser
-## Get Rss an example :
-./get-rss1.sh worms https://www.wormser-zeitung.de/rss/lokales/worms/nachrichten-worms
+## Get RSS an example
+./get-rss1.sh worms [https://www.wormser-zeitung.de/rss/lokales/worms/nachrichten-worms](https://www.wormser-zeitung.de/rss/lokales/worms/nachrichten-worms)

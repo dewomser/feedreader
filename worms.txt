@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+    <channel>
+        
+        <title>Wormser Zeitung - Lokalnachrichten aus Worms</title>
+        <description>Wormser Zeitung RSS-Feed für die Rubrik Lokalnachrichten aus Worms</description>
+        <link>https://www.wormser-zeitung.de</link>
+        <language>de</language>
+        <pubDate>Thu, 08 Apr 2021 00:17:42 +0200</pubDate>
+
+        
+        <image>
+            <title>Wormser Zeitung</title>
+            <link>https://www.wormser-zeitung.de</link>
+            <url>https://www.wormser-zeitung.de/images/editions/wz/logo.svg</url>
+        </image>
+
+        
+                    <item>
+                <title>Oliver Lellek neu an der Spitze der EWR Netz GmbH</title>
+                <link>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/oliver-lellek-neu-an-der-spitze-der-ewr-netz-gmbh_23480048</link>
+                <description>Der 52-Jährige ist neuer technischer Leiter der Geschäftsführung.</description>
+                <pubDate>Thu, 08 Apr 2021 00:00:00 +0200</pubDate>
+                <guid>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/oliver-lellek-neu-an-der-spitze-der-ewr-netz-gmbh_23480048</guid>
+
+                
+                                    <enclosure type="image/jpeg" url="https://cdn.meine-vrm.de/WP0GV2F95vJzj72II-aJ9O4C2AU=/640x400/smart/819%2F23480%2F23480047%2F51085004.jpg" length="0"/>                            </item>
+                    <item>
+                <title>750   000 Euro für Wormser Schulen</title>
+                <link>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/750-000-euro-fur-wormser-schulen_23480051</link>
+                <description>Für Schulbaumaßnahmen im Schulaufsichtsbezirk Rheinhessen-Pfalz sind insgesamt rund 30 Millionen Euro aus dem Landesschulbauprogramm bewilligt worden. Dies hat der Präsident der Aufsichts- und ...</description>
+                <pubDate>Thu, 08 Apr 2021 00:00:00 +0200</pubDate>
+                <guid>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/750-000-euro-fur-wormser-schulen_23480051</guid>
+
+                
+                            </item>
+                    <item>
+                <title>Verleihung von Zivilcourage-Preis in Worms verschoben</title>
+                <link>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/verleihung-von-zivilcourage-preis-in-worms-verschoben_23480050</link>
+                <description>Wegen der Corona-Pandemie wurde die Auszeichnung "Das unerschrockene Wort" für drei weißrussische Frauenrechtlerinnen in den Sommer verlegt.</description>
+                <pubDate>Thu, 08 Apr 2021 00:00:00 +0200</pubDate>
+                <guid>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/verleihung-von-zivilcourage-preis-in-worms-verschoben_23480050</guid>
+
+                
+                            </item>
+                    <item>
+                <title>App zur Ausstellung "SchUM am Rhein" im Wormser Raschi-Haus</title>
+                <link>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/app-zur-ausstellung-schum-am-rhein-im-wormser-raschi-haus_23480049</link>
+                <description>Die Innovationskraft der drei jüdischen Gemeinden in Speyer, Worms und Mainz konnte man bislang in der Ausstellung "SchUM am Rhein – Vom Mittelalter in die Moderne" im Jüdischen Museum im Raschi-Haus ...</description>
+                <pubDate>Thu, 08 Apr 2021 00:00:00 +0200</pubDate>
+                <guid>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/app-zur-ausstellung-schum-am-rhein-im-wormser-raschi-haus_23480049</guid>
+
+                
+                            </item>
+                    <item>
+                <title>Eleonoren-Gymnasium hat keine Schnelltests erhalten</title>
+                <link>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/eleonoren-gymnasium-hat-keine-schnelltests-erhalten_23478673</link>
+                <description>Statt Wechselunterricht gibt es an der Wormser Schule kurzfristig Fernunterricht. Der Schulleitung ist ohne Tests das Risiko für Corona-Ansteckungen zu groß.</description>
+                <pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
+                <guid>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/eleonoren-gymnasium-hat-keine-schnelltests-erhalten_23478673</guid>
+
+                
+                                    <enclosure type="image/jpeg" url="https://cdn.meine-vrm.de/AHpuGLCcfsWl8i3b7yVwNKdU9xc=/640x400/smart/819%2F23478%2F23478608%2F51080559.jpg" length="0"/>                            </item>
+                    <item>
+                <title>Fünf positive Corona-Schnelltests in Wormser Testzentrum</title>
+                <link>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/funf-positive-corona-schnelltests-in-wormser-testzentrum_23478041</link>
+                <description>Gleich mehrere Corona-Verdachtsfälle wurden durch Schnelltests nachgewiesen. Dies treibt den Prozentsatz positiver Tests stark nach oben.</description>
+                <pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
+                <guid>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/funf-positive-corona-schnelltests-in-wormser-testzentrum_23478041</guid>
+
+                
+                                    <enclosure type="image/jpeg" url="https://cdn.meine-vrm.de/hP9B_mfaHi-UQrhvzV733aDOwH4=/640x400/smart/819%2F23478%2F23478040%2F51078347.jpg" length="0"/>                            </item>
+                    <item>
+                <title>550 Liter Diesel aus Baufahrzeugen in Worms gestohlen</title>
+                <link>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/550-liter-diesel-aus-baufahrzeugen-in-worms-gestohlen_23475779</link>
+                <description>Unbekannte Täter haben am Dienstagabend auf der Baustelle am Bahnübergang an drei Baufahrzeugen Kraftstoff abgezapft.
+
+Gegen 18.30 Uhr löste der Bewegungsmelder aus, als die Täter das mit Bauzaun ...</description>
+                <pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
+                <guid>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/550-liter-diesel-aus-baufahrzeugen-in-worms-gestohlen_23475779</guid>
+
+                
+                            </item>
+                    <item>
+                <title>Unfall nach Wendemanöver in Worms</title>
+                <link>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/unfall-nach-wendemanover-in-worms_23475778</link>
+                <description>Bei einem Zusammenstoß mit einem Transporter ist ein 54 Jahre alter Autofahrer am Dienstagabend in der Mittelrheinstraße verletzt worden.
+
+Der Mann war mit seinem Fahrzeug gegen 17.30 Uhr aus ...</description>
+                <pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
+                <guid>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/unfall-nach-wendemanover-in-worms_23475778</guid>
+
+                
+                            </item>
+                    <item>
+                <title>Wie viel Entscheidungsfreiheit hat das Wormser Impfzentrum?</title>
+                <link>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/wie-viel-entscheidungsfreiheit-hat-das-wormser-impfzentrum_23475669</link>
+                <description>Welche Spielräume es in Sachen Impfen in Worms gibt – und wie Personen unter 60 Jahren mit Astrazeneca-Impftermin vorgehen sollten.</description>
+                <pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
+                <guid>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/wie-viel-entscheidungsfreiheit-hat-das-wormser-impfzentrum_23475669</guid>
+
+                
+                                    <enclosure type="image/jpeg" url="https://cdn.meine-vrm.de/8qDVL_zln4hd71Adv-KQw2hTYIQ=/640x400/smart/819%2F23475%2F23475666%2F51071625.jpg" length="0"/>                            </item>
+                    <item>
+                <title>Uneinigkeit über Wechselunterricht in Worms</title>
+                <link>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/uneinigkeit-uber-wechselunterricht-in-worms_23471505</link>
+                <description>Wormser Schulen kehren nach den Ferien zum Wechselunterricht zurück, obwohl weiterhin Angst und Unsicherheit bei Eltern, Schülern und Lehrern herrschen. Wie geht es dann weiter?</description>
+                <pubDate>Wed, 07 Apr 2021 00:00:00 +0200</pubDate>
+                <guid>https://www.wormser-zeitung.de/lokales/worms/nachrichten-worms/uneinigkeit-uber-wechselunterricht-in-worms_23471505</guid>
+
+                
+                                    <enclosure type="image/jpeg" url="https://cdn.meine-vrm.de/AFheZM6-8ECO4SQqRDy1yLP7f5I=/640x400/smart/819%2F23471%2F23471502%2F51058980.jpg" length="0"/>                            </item>
+        
+    </channel>
+</rss>
