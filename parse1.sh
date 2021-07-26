@@ -21,8 +21,9 @@ cat "$1" | while xmlgetnext ; do
          title="$VALUE"
          ;;
       'link')
-         #link="$VALUE"
-         link=$( echo "$VALUE" | sed -e 's/\.de/\.de\/amp/g')
+        link="$VALUE"
+         #link=$( echo "$VALUE" | sed -e 's/\.de/\.de\/amp/g')
+         alt=$(curl $link| grep "[[:blank:]][[:blank:]]alt=" | sed -e 's/alt=/\n/g')
          #link=$( ./WZ.sh "$VALUE"
          ;;
       'pubDate')
@@ -51,7 +52,7 @@ cat "$1" | while xmlgetnext ; do
 <p>$description
 <span class="post-date">hoch geladen am <time
 datetime="$datetime">$pubDate</time></span></p>
-<p></p>
+<p>$alt</p>
 </article>
 EOF
 
