@@ -11,3 +11,6 @@ Mit Shell-Check getestet:
 * last line: browser
 ## Get RSS an example
 ./get-rss1.sh worms [https://www.wormser-zeitung.de/rss/lokales/worms/nachrichten-worms](https://www.wormser-zeitung.de/rss/lokales/worms/nachrichten-worms)
+oder
+./get-rss1.sh mainz [https://www.allgemeine-zeitung.de/rss/lokales/mainz/nachrichten-mainz](https://www.allgemeine-zeitung.de/rss/lokales/mainz/nachrichten-mainz)
+
