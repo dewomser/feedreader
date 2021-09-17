@@ -15,16 +15,20 @@ cat "$1" | while xmlgetnext ; do
          pubDate=''
          description=''
          enclosure=''
+        
          
          ;;
       'title')
          title="$VALUE"
          ;;
       'link')
-        link="$VALUE"
+         link="$VALUE"
          #link=$( echo "$VALUE" | sed -e 's/\.de/\.de\/amp/g')
-         alt="$(curl "$link" |grep '[[:blank:]][[:blank:]]alt=' | sed -e 's/alt=/\n/g')"
-         #link=$( ./WZ.sh "$VALUE"
+         alt=$(curl "$link" |grep '[[:blank:]][[:blank:]]alt=' | sed -e 's/alt=/\n/g')
+         bild=$(curl "$link" |grep -E -o 'large],.*1020x510.*large]\"'|sed -e  's/x*large]/\n/g'| tr -d  ,\"[
+)
+         #grep -o 'consectetuer.*elit'
+         # option | tail -n +3 | head -n 2
          ;;
       'pubDate')
          # convert pubDate format for <time datetime="">
@@ -53,13 +57,16 @@ cat "$1" | while xmlgetnext ; do
 <span class="post-date">hoch geladen am <time
 datetime="$datetime">$pubDate</time></span></p>
 <p>$alt</p>
+<br><a href="$bild">Bild in groß</a>"
+
 </article>
 EOF
 
 if [ $enclosure -eq 1 ] ; then
 # shellcheck disable=SC2002
+
 cat "$1" | grep -e enclosure | sed -n "$zaehl"p | sed -e 's/<enclosure//g' -e 's/<\/item>//g' -e 's/length=\"0\"\///g' -e 's/type=\"image\/jpeg\" url/<img src/g'
-zaehl=$((zaehl+1))
+zaehl=$((zaehl+1)) 
 
 fi
 
