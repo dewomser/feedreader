@@ -25,9 +25,9 @@ cat "$1" | while xmlgetnext ; do
          link="$VALUE"
          #link=$( echo "$VALUE" | sed -e 's/\.de/\.de\/amp/g')
          alt=$(curl "$link" |grep '[[:blank:]][[:blank:]]alt=' | sed -e 's/alt=/\n/g')
-         bild=$(curl "$link" |grep -E -o 'large],.*1020x510.*large]\"'|sed -e  's/x*large]/\n/g'| tr -d  ,\"[
-)
-         #grep -o 'consectetuer.*elit'
+         bild=$(curl "$link" |grep -E -o 'large],.*1020x510.*large]\"'|sed -e  's/x*large]/\n/g'| tr -d  ,\"[ )
+         text=$(curl "$link" | grep -E -o 'vrm-premium__icon'|sed -e  's/vrm-premium__icon/Klickverbot/g')
+         #grep -o 'consectetuer.*elit''
          # option | tail -n +3 | head -n 2
          ;;
       'pubDate')
@@ -46,13 +46,18 @@ cat "$1" | while xmlgetnext ; do
           enclosure=1
          
          ;;
+         
       
   '/item')
+  
+  if [[ $TAG = "description" ]] ; then
+            echo $VALUE
+         fi
       
     
          cat<<EOF
 <article>
-<h3><a href="$link">$title</a></h3>
+<h3><a href="$link">$title</a></h3>$text
 <p>$description
 <span class="post-date">hoch geladen am <time
 datetime="$datetime">$pubDate</time></span></p>
