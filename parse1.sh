@@ -51,7 +51,7 @@ cat "$1" | while xmlgetnext ; do
   '/item')
   
   if [[ $TAG = "description" ]] ; then
-            echo $VALUE
+            echo "$VALUE"
          fi
       
     
