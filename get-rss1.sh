@@ -1,5 +1,5 @@
 #!/bin/bash
-cd $HOME/bin/wz-test || exit
+cd "$HOME"/bin/wz-test || exit
 
 wget --quiet -O "$1".txt "$2"
 
