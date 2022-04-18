@@ -24,9 +24,11 @@ cat "$1" | while xmlgetnext ; do
       'link')
          link="$VALUE"
          #link=$( echo "$VALUE" | sed -e 's/\.de/\.de\/amp/g')
-         alt=$(curl "$link" |grep '[[:blank:]][[:blank:]]alt=' | sed -e 's/alt=/\n/g')
-         bild=$(curl "$link" |grep -E -o 'large],.*1020x510.*large]\"'|sed -e  's/x*large]/\n/g'| tr -d  ,\"[ )
-         text=$(curl "$link" | grep -E -o 'vrm-premium__icon'|sed -e  's/vrm-premium__icon/Klickverbot/g')
+         curl "$VALUE" > clink.tmp
+         alt=$( cat clink.tmp |grep '[[:blank:]][[:blank:]]alt=' | sed -e 's/alt=/\n/g')
+         bild=$(cat clink.tmp |grep -E -o 'large],.*1020x510.*large]\"'|sed -e  's/x*large]/\n/g'| tr -d  ,\"[ )
+         bild2=$(cat clink.tmp |grep -E '<meta name=\"cXenseParse:vrm-image-large\" content="\"*'| sed -e 's/<meta name=\"cXenseParse:vrm-image-large\"[[:space:]]content="/\n/g'| rev | cut -c5- |rev)
+         text=$(cat clink.tmp| grep -E -o 'vrm-premium__icon'|sed -e  's/vrm-premium__icon/Klickverbot/g')
          #grep -o 'consectetuer.*elit''
          # option | tail -n +3 | head -n 2
          ;;
@@ -62,7 +64,7 @@ cat "$1" | while xmlgetnext ; do
 <span class="post-date">hoch geladen am <time
 datetime="$datetime">$pubDate</time></span></p>
 <p>$alt</p>
-<br><a href="$bild">Bild in groß</a>"
+<br><a href="$bild">Bild in groß</a>" <a href="$bild2">Bild in sehr groß</a>"
 
 </article>
 EOF
