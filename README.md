@@ -1,4 +1,8 @@
 # Feedreader
+## Achtung durch Änderung an der Zeitungswebseite funktioniert dieses Skript nicht mehr!
+Das Skript entwickle in einem privaten Repostiory weiter
+Allerdings kann man hier verschiedene Skripte anders nutzen, und mit etwas Mühe kann man den Feedreader auch wieder funktionsfähig machen.
+
 Rss feedreader incl. image
 Es wird ein HTML erzeugt und im Browser angezeigt (Dillo)
 
